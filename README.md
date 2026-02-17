@@ -70,7 +70,7 @@ task-board/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Task-Management-Board.git
+git clone https://github.com/NJyotsna/Task-Management-Board.git
 cd Task-Management-Board
 ```
 
