@@ -6,7 +6,6 @@ This application allows users to efficiently manage tasks by organizing them int
 -  To Do  
 -  Doing  
 -  Done
-
 ---
 
 ##  Features
@@ -18,7 +17,6 @@ This application allows users to efficiently manage tasks by organizing them int
 -  Persistent storage using LocalStorage
 -  Clean and responsive UI
 -  Fast performance with Vite
-
 ---
 
 ## 🛠 Tech Stack
