@@ -1,71 +1,148 @@
-Task Management Board
+# 🗂 Task Management Board
 
-A modern and responsive Task Management Board (Kanban-style) web application that allows users to efficiently manage tasks by organizing them into different stages such as To Do, In Progress, and Completed.
+A modern and responsive **Kanban-style Task Management Board** built using **React + Vite**.  
+This application allows users to efficiently manage tasks by organizing them into different stages such as:
 
-Features
+- 📝 To Do  
+- 🚧 In Progress  
+- ✅ Completed  
 
-1.Create new tasks
-2.Edit existing tasks
-3.Delete tasks
-4.Drag and drop between columns (if implemented)
-5.Organized task workflow (To Do → In Progress → Done)
-6.Persistent data storage (if using localStorage / backend)
-7.Responsive design
+---
 
-🛠️ Tech Stack
+## 🚀 Features
 
-Frontend: React.js
-Styling: CSS / Tailwind / Bootstrap (update as per your project)
-State Management: React Hooks
-Build Tool: (Create React App / Vite — update accordingly)
-Package Manager: npm
+- ➕ Create new tasks
+- ✏️ Edit existing tasks
+- 🗑 Delete tasks
+- 🔄 Move tasks between workflow stages
+- 💾 Persistent storage using LocalStorage
+- 🌙 Clean and responsive UI
+- ⚡ Fast performance with Vite
 
-📂 Project Structure
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React.js
+- **Build Tool:** Vite
+- **State Management:** React Hooks & Context API
+- **Styling:** CSS
+- **Package Manager:** npm
+- **Linting:** ESLint
+
+---
+
+## 📂 Project Structure
+
+```bash
 task-board/
 │
-├── index.html             
+├── index.html
 │
-├── public/                
+├── public/
 │
 ├── src/
 │   ├── components/
-│   │   └── TaskCard.jsx       
+│   │   └── TaskCard.jsx
 │   │
 │   ├── context/
-│   │   └── AuthContext.jsx    
+│   │   └── AuthContext.jsx
 │   │
 │   ├── pages/
-│   │   ├── App.jsx            
-│   │   ├── App.css             
-│   │   ├── index.css           
-│   │   └── main.jsx            
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
 │   │
-│   └── eslint.config.js        
+│   └── eslint.config.js
 │
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
 
+---
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/your-username/Task-Management-Board.git
 cd Task-Management-Board
+```
 
-2️⃣ Install dependencies
+---
 
+### 2️⃣ Install Dependencies
+
+```bash
 npm install
+```
 
-3️⃣ Run the project locally
+---
 
-If using Create React App:
-npm start
+### 3️⃣ Run the Development Server
 
-If using Vite:
+```bash
 npm run dev
+```
 
-🏗️ Build for Production
+The app will run locally at:
+
+```
+http://localhost:5173/
+```
+
+---
+
+## 🏗️ Build for Production
+
+To create an optimized production build:
+
+```bash
 npm run build
+```
 
-🔍 Preview Production Build
+---
+
+## 🔍 Preview Production Build
+
+To preview the production build locally:
+
+```bash
 npm run preview
+```
+
+---
+
+## 🌍 Deployment
+
+This project can be deployed on:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+Recommended: **Vercel (best for Vite projects)**
+
+---
+
+## 📌 Future Improvements
+
+- 🔍 Task filtering and search
+- 📊 Analytics dashboard
+- 🧑‍🤝‍🧑 Multi-user support
+- 🗄 Backend integration
+
+---
+
+## 👩‍💻 Author
+
+**N Jyotsna**
+
+GitHub: https://github.com/NJyotsna
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
