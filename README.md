@@ -124,17 +124,9 @@ This project can be deployed on:
 Recommended: **Vercel (best for Vite projects)**
 
 ---
-
-## 📌 Future Improvements
-
--  Task filtering and search
--  Analytics dashboard
--  Multi-user support
--  Backend integration
-
 ---
 
-## 👩‍💻 Author
+## Author
 **N Jyotsna**
 
 GitHub: https://github.com/NJyotsna
