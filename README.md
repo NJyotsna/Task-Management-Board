@@ -34,6 +34,8 @@ This application allows users to efficiently manage tasks by organizing them int
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
 ```bash
 task-board/
 │
@@ -49,11 +51,13 @@ task-board/
 │   │   └── AuthContext.jsx
 │   │
 │   ├── pages/
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   └── main.jsx
+│   │   ├── Board.jsx
+│   │   └── Login.jsx
 │   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   ├── main.jsx
 │   └── eslint.config.js
 │
 ├── package.json
