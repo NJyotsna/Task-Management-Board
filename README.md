@@ -1,6 +1,6 @@
 # 🗂 Task Management Board
 
-A modern and responsive **Kanban-style Task Management Board** built using **React + Vite**.  
+A modern and responsive **Task Management Board** built using **React + Vite**.  
 This application allows users to efficiently manage tasks by organizing them into different stages such as:
 
 -  To Do  
