@@ -34,8 +34,6 @@ This application allows users to efficiently manage tasks by organizing them int
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 ```bash
 task-board/
 │
