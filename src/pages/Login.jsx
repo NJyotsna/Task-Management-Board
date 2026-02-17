@@ -66,6 +66,26 @@ function Login() {
           <p style={styles.forgot} onClick={handleForgotPassword}>
             Forgot Password?
           </p>
+
+          {/* Demo Credentials Section */}
+          <div style={styles.demoBox}>
+            <p style={styles.demoTitle}>Demo Credentials</p>
+            <p>Email: intern@demo.com</p>
+            <p>Password: intern123</p>
+
+            <button
+              type="button"
+              style={styles.demoButton}
+              onClick={() => {
+                setEmail("intern@demo.com")
+                setPassword("intern123")
+                setError("")
+                setMessage("")
+              }}
+            >
+              Use Demo Account
+            </button>
+          </div>
         </form>
       </div>
     </div>
@@ -83,9 +103,9 @@ const styles = {
   card: {
     background: "#fff",
     padding: "40px",
-    borderRadius: "10px",
-    width: "350px",
-    boxShadow: "0 10px 25px rgba(0,0,0,0.2)",
+    borderRadius: "12px",
+    width: "360px",
+    boxShadow: "0 12px 30px rgba(0,0,0,0.2)",
     textAlign: "center"
   },
   title: {
@@ -99,13 +119,13 @@ const styles = {
   input: {
     padding: "10px",
     marginBottom: "15px",
-    borderRadius: "5px",
+    borderRadius: "6px",
     border: "1px solid #ccc",
     fontSize: "14px"
   },
   button: {
     padding: "10px",
-    borderRadius: "5px",
+    borderRadius: "6px",
     border: "none",
     backgroundColor: "#667eea",
     color: "#fff",
@@ -127,6 +147,27 @@ const styles = {
     color: "green",
     fontSize: "13px",
     marginBottom: "10px"
+  },
+  demoBox: {
+    marginTop: "20px",
+    padding: "12px",
+    backgroundColor: "#f3f4f6",
+    borderRadius: "8px",
+    fontSize: "13px"
+  },
+  demoTitle: {
+    fontWeight: "bold",
+    marginBottom: "6px"
+  },
+  demoButton: {
+    marginTop: "8px",
+    padding: "6px",
+    borderRadius: "5px",
+    border: "none",
+    backgroundColor: "#764ba2",
+    color: "#fff",
+    cursor: "pointer",
+    fontSize: "12px"
   }
 }
 
