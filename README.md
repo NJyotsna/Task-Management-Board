@@ -62,7 +62,6 @@ task-board/
 ├── package-lock.json
 └── README.md
 ```
-
 ---
 
 ## Installation & Setup
@@ -73,7 +72,6 @@ task-board/
 git clone https://github.com/NJyotsna/Task-Management-Board.git
 cd Task-Management-Board
 ```
-
 ---
 
 ### 2️⃣ Install Dependencies
@@ -123,7 +121,6 @@ This project can be deployed on:
 
 Recommended: **Vercel (best for Vite projects)**
 
----
 ---
 
 ## Author
