@@ -3,21 +3,21 @@
 A modern and responsive **Kanban-style Task Management Board** built using **React + Vite**.  
 This application allows users to efficiently manage tasks by organizing them into different stages such as:
 
-- 📝 To Do  
-- 🚧 In Progress  
-- ✅ Completed  
+-  To Do  
+-  Doing  
+-  Done
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ➕ Create new tasks
-- ✏️ Edit existing tasks
-- 🗑 Delete tasks
-- 🔄 Move tasks between workflow stages
-- 💾 Persistent storage using LocalStorage
-- 🌙 Clean and responsive UI
-- ⚡ Fast performance with Vite
+-  Create new tasks
+-  Edit existing tasks
+-  Delete tasks
+-  Move tasks between workflow stages
+-  Persistent storage using LocalStorage
+-  Clean and responsive UI
+-  Fast performance with Vite
 
 ---
 
@@ -65,7 +65,7 @@ task-board/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
@@ -81,7 +81,6 @@ cd Task-Management-Board
 ```bash
 npm install
 ```
-
 ---
 
 ### 3️⃣ Run the Development Server
@@ -89,36 +88,32 @@ npm install
 ```bash
 npm run dev
 ```
-
 The app will run locally at:
 
 ```
 http://localhost:5173/
 ```
-
 ---
 
-## 🏗️ Build for Production
+## Build for Production
 
 To create an optimized production build:
 
 ```bash
 npm run build
 ```
-
 ---
 
-## 🔍 Preview Production Build
+## Preview Production Build
 
 To preview the production build locally:
 
 ```bash
 npm run preview
 ```
-
 ---
 
-## 🌍 Deployment
+## Deployment
 
 This project can be deployed on:
 
@@ -132,19 +127,19 @@ Recommended: **Vercel (best for Vite projects)**
 
 ## 📌 Future Improvements
 
-- 🔍 Task filtering and search
-- 📊 Analytics dashboard
-- 🧑‍🤝‍🧑 Multi-user support
-- 🗄 Backend integration
+-  Task filtering and search
+-  Analytics dashboard
+-  Multi-user support
+-  Backend integration
 
 ---
 
 ## 👩‍💻 Author
-
 **N Jyotsna**
 
 GitHub: https://github.com/NJyotsna
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ If you found this project useful, consider giving it a star! :)
+
